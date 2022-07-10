@@ -51,15 +51,15 @@ async def cbmenu(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cb_start"))
 async def cb_start(_, query: CallbackQuery):
     await query.edit_message_text(
-       f"""ʜᴇʟʟᴏ [✨](https://telegra.ph/file/ea8d4bee1c0fac3814e11.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
+       f"""ʜᴇʟʟᴏ [✨](https://telegra.ph/file/a44453181ceccc246cffd.jpg) **ᴡᴇʟᴄᴏᴍᴇ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**\n
  **ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄᴀʟʟ !!**
  **ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ 💫**
- **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @Techno_Trickop**""",
+ **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴊᴏɪɴ @ribajosmani**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛓ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ",
+                        "➕ Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ Gʀᴏᴜᴘ ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
@@ -67,7 +67,7 @@ async def cb_start(_, query: CallbackQuery):
                     "• Cᴏᴍᴍᴀɴᴅs", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("• Oᴡɴᴇʀ", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/herox_xd"),
+                    InlineKeyboardButton("• Dᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/meribaj"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -79,7 +79,7 @@ async def cb_start(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Sᴏᴜʀᴄᴇ Cᴏᴅᴇ •", url="https://github.com/SJMxADITI/TrickyMusic"
+                        "• Osᴍᴀɴɪ Bᴏᴛs •", url="https://t.me/osmanibots"
                     )
                 ],
             ]
@@ -97,7 +97,7 @@ async def cb_cmd(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""✨ **Hello !**
 » **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴs 🔭 !**
-⚡ Powered by [H E R O X](https://t.me/Herox_xd)""",
+⚡ Powered by [𝐌 𝐄  𝐑 𝐈 𝐁 𝐀 𝐉](https://t.me/meribaj)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -127,7 +127,7 @@ async def cb_basic(_, query: CallbackQuery):
 •  `/mute` - mute assistant in vc
 •  `/lyrics (song name)`
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [𝐌 𝐄  𝐑 𝐈 𝐁 𝐀 𝐉](https://t.me/meribaj) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -145,7 +145,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [H E R O X](https://t.me/meribaj) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
@@ -162,7 +162,7 @@ async def cb_fun(_, query: CallbackQuery):
 • `/abhi`   🌝
 • `/tricky` 🌝   
 
-⚡ Powered By [H E R O X](https://t.me/herox_xd) .""",
+⚡ Powered By [𝐌 𝐄  𝐑 𝐈 𝐁 𝐀 𝐉](https://t.me/meribaj) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
