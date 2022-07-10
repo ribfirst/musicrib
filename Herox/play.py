@@ -131,8 +131,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton('⏭️', callback_data="skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Techno_Trickop"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/TrickyAbhii_Op"),
+                      InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/teamosmani"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/osmanigroupbot"),
                   ],[
                       InlineKeyboardButton("🗑 Close", callback_data="cls")],
                   ]
@@ -241,13 +241,13 @@ async def play(c: Client, m: Message):
         if len(m.command) < 2:
          await m.reply_photo(
                      photo=f"{IMG_5}",
-                    caption="💬**Usage: /play Give a Title Song To Play Music or join @aboutez**"
+                    caption="💬**Usage: /play Give a Title Song To Play Music or join @ribajosmani**"
                     ,
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("~ Channel ~", url=f"https://t.me/Techno_Trickop"),
-                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/TrickyAbhii_Op")
+                            InlineKeyboardButton("~ Channel ~", url=f"https://t.me/teamosmani"),
+                            InlineKeyboardButton("~ Support ~", url=f"https://t.me/osmanigroupbot")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -257,7 +257,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**𝙃𝙀𝙍𝙊𝙓 𝙈𝙐𝙎𝙄𝘾**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**𝕆𝕤𝕞𝕒𝕟𝕚 𝕊𝕥𝕣𝕖𝕒𝕞 𝔹𝕠𝕥**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
