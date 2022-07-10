@@ -145,7 +145,7 @@ async def cb_advance(_, query: CallbackQuery):
 • `/rmd` clean all downloads
 • `/clean` - clear storage 
 
-⚡ Powered By [H E R O X](https://t.me/meribaj) .""",
+⚡ Powered By [𝐌 𝐄  𝐑 𝐈 𝐁 𝐀 𝐉](https://t.me/meribaj) .""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="cb_cmd")]]
         ),
