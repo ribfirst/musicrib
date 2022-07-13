@@ -29,8 +29,11 @@
 <a href="https://cloud.okteto.com/deploy?repository=https://github.com/SJMxADITI/TrickyAbhi-Music"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="250""/></a>
 
   
-
+###  Deploy To Railway
   
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/ZDjyvb?referralCode=osmani)  
+
+
 # TrickyAbhi-Music
 OMFO Gimme a star and follow me 
   
